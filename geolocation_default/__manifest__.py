@@ -55,7 +55,7 @@
     'docker-images': [
         'odoo regaby/odoo-ce:13.0',
         # 'postgres postgres:10.1-alpine',
-        'postgres mdillon/postgis:11-alpine'
+        'postgres mdillon/postgis:11-alpine',
         'nginx nginx'
     ]
 }
