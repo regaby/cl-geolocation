@@ -32,7 +32,7 @@
         'https://github.com/filoquin/cl-blancoamor.git',
         'git@code.gestionblancoamor.com:odoo-13/blancoamor.git'
     ],
-
+    base_dir: /opt/odoo/docker_files,
     'docker-images': [
         'odoo regaby/odoo-ce:13.0',
         # 'postgres postgres:10.1-alpine',
