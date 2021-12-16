@@ -1,5 +1,5 @@
 {
-    'name': 'geolocation',
+    'name': 'Blancoamor',
     'version': '13.0.0.0',
     'category': 'Tools',
     'summary': "Proyecto geolocation",
@@ -29,14 +29,14 @@
 
     # list of url repos to install in the form 'repo-url directory'
     'git-repos': [
-        'https://github.com/filoquin/cl-geolocation.git',
+        'https://github.com/filoquin/cl-blancoamor.git',
         'git@code.gestionblancoamor.com:odoo-13/blancoamor.git'
     ],
 
     'docker-images': [
         'odoo regaby/odoo-ce:13.0',
         # 'postgres postgres:10.1-alpine',
-        'postgres mdillon/postgis:11-alpine',
-        'nginx nginx'
+        #'postgres mdillon/postgis:11-alpine',
+        #'nginx nginx'
     ]
 }
