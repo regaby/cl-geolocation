@@ -26,6 +26,7 @@
 
     # port where odoo starts serving pages
     'port': '8016',
+    'longpolling_port': '8078',
 
     # list of url repos to install in the form 'repo-url directory'
     'git-repos': [
