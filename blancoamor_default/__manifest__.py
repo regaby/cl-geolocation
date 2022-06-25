@@ -2,7 +2,7 @@
     'name': 'dck_blancoamor',
     'version': '13.0.0.0',
     'category': 'Tools',
-    'summary': "Proyecto geolocation",
+    'summary': "Proyecto ba con geo",
     'author': 'Ing. Gabriela Rivero',
     'depends': [
         'base',
@@ -11,7 +11,7 @@
     ],
     'installable': True,
     'application': False,
-
+    'external_dependencies': {'python':['twilio']},
     'limit_request': '8196',
     'limit_memory_soft': '640000000',
     'limit_memory_hard': '760000000',
