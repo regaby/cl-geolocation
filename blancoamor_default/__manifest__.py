@@ -38,7 +38,7 @@
         'git@code.gestionblancoamor.com:odoo-13/ba_purchase.git -b 13.0 ba-ba-purchase',
         'git@code.gestionblancoamor.com:odoo-13/ba_website.git -b 13.0 ba-ba-website',
         'git@code.gestionblancoamor.com:odoo-13/ba_campus.git -b 13.0 ba-ba-campus',
-        'git@code.gestionblancoamor.com:filoquin/website_themes.git ba -b 13.0 varios-website_themes',
+        'git@code.gestionblancoamor.com:filoquin/website_themes.git -b 13.0 varios-website_themes',
         'git@code.gestionblancoamor.com:filoquin/ux.git -b 13.0 varios-ba-ux',
         'git@code.gestionblancoamor.com:odoo-13/ks_dashboard_ninja.git ba -b 13.0 varios-ks_dashboard_ninja',
         'git@code.gestionblancoamor.com:odoo-13/ba_hr -b 13.0 ba-ba_hr',
