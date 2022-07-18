@@ -30,16 +30,14 @@
 
     # list of url repos to install in the form 'repo-url directory'
     'git-repos': [
-
-
         'https://github.com/filoquin/cl-blancoamor.git',
-        'git@code.gestionblancoamor.com:odoo-13/ba_sales.git -b13.0 ba-ba_sales',
-        'git@code.gestionblancoamor.com:odoo-13/ba_base.git -b13.0 ba-ba_base',
-        'git@code.gestionblancoamor.com:odoo-13/ba_delivery_zone.git -b13.0 ba-ba_delivery_zone',
-        'git@code.gestionblancoamor.com:odoo-13/ba_product.git -b13.0 ba-ba_product',
-        'git@code.gestionblancoamor.com:odoo-13/ba_purchase.git -b13.0 ba-ba_purchase',
-        'git@code.gestionblancoamor.com:odoo-13/ba_website.git -b13.0 ba-ba_website',
-        'git@code.gestionblancoamor.com:odoo-13/ba_campus -b13.0.git ba-ba_campus',
+        'git@code.gestionblancoamor.com:odoo-13/ba_sales.git -b13.0 ba-ba-sales',
+        'git@code.gestionblancoamor.com:odoo-13/ba_base.git -b13.0 ba-ba-base',
+        'git@code.gestionblancoamor.com:odoo-13/ba_delivery_zone.git -b13.0 ba-ba-stock',
+        'git@code.gestionblancoamor.com:odoo-13/ba_product.git -b13.0 ba-ba-product',
+        'git@code.gestionblancoamor.com:odoo-13/ba_purchase.git -b13.0 ba-ba-purchase',
+        'git@code.gestionblancoamor.com:odoo-13/ba_website.git -b13.0 ba-ba-website',
+        'git@code.gestionblancoamor.com:odoo-13/ba_campus.git -b13.0.git ba-ba-campus',
         'git@code.gestionblancoamor.com:filoquin/website_themes.git ba -b13.0 /varios/website_themes',
         'git@code.gestionblancoamor.com:filoquin/ux.git -b13.0 ba-ux',
         'git@code.gestionblancoamor.com:odoo-13/ks_dashboard_ninja.git ba -b13.0/varios/ks_dashboard_ninja',
