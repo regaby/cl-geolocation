@@ -11,7 +11,7 @@
     ],
     'installable': True,
     'application': False,
-    'external_dependencies': {'python':['twilio']},
+    'external_dependencies': {'python': ['twilio', 'html2text']},
     'limit_request': '8196',
     'limit_memory_soft': '640000000',
     'limit_memory_hard': '760000000',
@@ -20,6 +20,11 @@
 
     # manifest version, if omitted it is backward compatible
     'env-ver': '2',
+    'config': [
+        'db_name = odoo',
+        'list_db = False',
+        'dbfilter = odoo',
+    ],
 
     # if Enterprise it installs in a different directory than community
     'odoo-license': 'CE',
@@ -40,8 +45,9 @@
         'git@code.gestionblancoamor.com:odoo-13/ba_campus.git -b 13.0 ba-ba-campus',
         'git@code.gestionblancoamor.com:filoquin/website_themes.git -b 13.0 varios-website_themes',
         'git@code.gestionblancoamor.com:filoquin/ux.git -b 13.0 varios-ba-ux',
-        'git@code.gestionblancoamor.com:odoo-13/ks_dashboard_ninja.git ba -b 13.0 varios-ks_dashboard_ninja',
+        'git@code.gestionblancoamor.com:odoo-13/ks_dashboard_ninja.git -b 13.0 varios-ks_dashboard_ninja',
         'git@code.gestionblancoamor.com:odoo-13/ba_hr -b 13.0 ba-ba_hr',
+        'https://github.com/filoquin/account_debt_management.git -b 13.0 filoquin/varios-account-debt-management',
         'https://github.com/ingadhoc/account-analytic.git -b 13.0 adhoc-account-analytic',
         'https://github.com/ingadhoc/account-invoicing.git -b 13.0 adhoc-account-invoicing',
         'https://github.com/ingadhoc/argentina-sale.git -b 13.0 adhoc-argentina-sale',
@@ -96,7 +102,7 @@
         'https://github.com/OCA/e-commerce.git -b 13.0 oca-e-commerce',
         'https://github.com/OCA/delivery-carrier.git -b 13.0 oca-delivery-carrier',
 
-        'git@code.gestionblancoamor.com:odoo-13/blancoamor.git'
+        # 'git@code.gestionblancoamor.com:odoo-13/blancoamor.git'
 
     ],
     'docker-images': [
@@ -105,5 +111,5 @@
         'postgres mdillon/postgis:11-alpine',
         #'nginx nginx'
     ]
-    #'base_dir': '/opt/odoo/docker_files/'
+    # 'base_dir': '/opt/odoo/docker_files/'
 }
