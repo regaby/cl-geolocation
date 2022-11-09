@@ -35,7 +35,7 @@
 
     # list of url repos to install in the form 'repo-url directory'
     'git-repos': [
-        'https://github.com/filoquin/cl-blancoamor.git',
+        'https://github.com/regaby/cl-geolocation.git',
         'git@code.gestionblancoamor.com:odoo-13/ba_sales.git -b 13.0 ba-ba-sales',
         'git@code.gestionblancoamor.com:odoo-13/ba_base.git -b 13.0 ba-ba-base',
         'git@code.gestionblancoamor.com:odoo-13/ba_delivery_zone.git -b 13.0 ba-ba-stock',
