@@ -1,5 +1,5 @@
 {
-    'name': 'dck_blancoamor',
+    'name': 'dck_blancoamor_dev',
     'version': '13.0.0.0',
     'category': 'Tools',
     'summary': "Proyecto ba con geo",
